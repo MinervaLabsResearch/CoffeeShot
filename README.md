@@ -69,7 +69,7 @@ sessions -i 1
 [![CoffeeShot Demo](https://i.imgur.com/nT0ZYl5.png)](https://youtu.be/MVwkjWB-Nx4)
 
 ## References
-[Minerva Labs Blog Post](https://youtu.be/FgcPJNQqhZ0)
+[Minerva Labs Blog Post](https://blog.minerva-labs.com/coffeeshot-avoid-detection-with-memory-injection)
 
 ## Authors
 * **Asaf Aprozper (3pun0x)** - *Creator* - [Twitter](https://twitter.com/3pun0x) - [GitHub](https://github.com/3pun0x) 
