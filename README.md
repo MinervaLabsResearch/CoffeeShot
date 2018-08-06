@@ -3,11 +3,13 @@
 # :coffee: CoffeeShot: Avoid Detection with Memory Injection :syringe:
 [![Arsenal](https://github.com/toolswatch/badges/blob/master/arsenal/usa/2018.svg)](https://www.toolswatch.org/2018/05/black-hat-arsenal-usa-2018-the-w0w-lineup/)
 
-CoffeeShot is a framework which uses Java Native Access (aka JNA) and takes it to another level by looking for a victim process and once it finds it - a shellcode will be injected directly from the JAR file (meaning that CoffeeShot doesn't drop any malicious shellcode on the disk).
+CoffeeShot is an evasion framework that injects payload from Java-based programs into designated processes on Microsoft Windows.
 
-Java Native Access is an external Java library that allows you to call Windows APIs directly from your JAR file.
+CoffeeShot assists blue team members in assessing the effectiveness of their anti-malware measures against malicious software written in Java. Red team members and pen testers can also use CoffeeShot to bypass the target’s security controls. 
 
-CoffeeShot is designed for demonstrating how Java-based malware can bypass most of the anti-virus vendors.
+CoffeShot utilizes JNA (Java Native Access) to inject payload from Java-based programs into designated processes on Microsoft Windows.
+
+The memory injection methods that CoffeeShot employs are straightforward and are well-known in the context of traditional, compiled executables. The effectiveness of these techniques at evading AV when they’re implemented in Java, highlights the brittle nature even by modern antivirus tools.
 
 ## Prerequisites:
 * Eclipse (or any other IDE that supports Java)
